@@ -1,0 +1,164 @@
+li {
+	list-style: none;
+}
+
+*,
+body {
+	box-sizing: border-box;
+}
+
+.hearder {
+	text-align: center;
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+.hearder h1 {
+	line-height: 100px;
+}
+
+#main_full {
+	background: #d7d7d7;
+
+}
+
+.main {
+	margin-bottom: 50px;
+	display: flex;
+}
+
+.main a,
+.main button {
+	padding: 7px 10px;
+	border: 1px solid #333dcf;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #fff;
+	background: #516bc0;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.main a:hover,
+.main button:hover {
+	background: #7689c9;
+	transition: 0.3s ease-in-out;
+}
+
+.main p {
+	margin-left: 50%;
+	cursor: pointer;
+}
+
+.main #main_span,
+.main p span:nth-child(2) {
+	padding: 5px 10px;
+	border-radius: 15px;
+	background: #1538ac;
+	margin-right: 5px;
+	color: #fff;
+}
+
+body ul {
+	padding-left: 0px;
+}
+
+ul li {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+ul li:not(:first-child):hover {
+	background: #b0b7da;
+	transition: 0.3s ease-in-out;
+}
+
+ul li:not(first-child):hover i {
+	color: #fff;
+	transition: 0.5s ease-in-out;
+}
+
+.repair {
+	background: #dfe1ee;
+	padding: 20px 0;
+}
+
+.repair_list {
+	position: relative;
+	height: 200px;
+	background: #fff;
+	margin-top: 2px;
+}
+
+.repair_list p {
+	padding: 10px 5px;
+	border: 1px solid #d7d7d7;
+	width: 40%;
+	margin-right: 5px;
+}
+
+.repair_list span {
+	position: relative;
+	display: flex;
+	bottom: 0;
+}
+
+.repair_list span:first-child {
+	margin-top: 50px;
+}
+
+.edit {
+	cursor: pointer;
+}
+
+.edit:hover {
+	background-color: #1538ac;
+}
+
+
+/*  */
+label {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#cauHoi {
+	width: 90%;
+}
+
+#cauHoi,
+#repA,
+#repB,
+#repC,
+#repD {
+	padding-left: 10px;
+}
+
+.cau1 {
+	position: relative;
+	padding: 25px 25px;
+	border: 1px solid #d7d7d7;
+	display: flex;
+
+}
+
+.cau1 input {
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+textarea {
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	border: 1px solid #229CFF;
+}
+
+.preview_right {
+	background: #dfe1ee;
+}
+
+/* class 1 */
+.preview_2 {
+	margin-bottom: 2px;
+}
